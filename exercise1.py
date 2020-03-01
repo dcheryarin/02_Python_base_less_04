@@ -7,6 +7,8 @@ def simple_calc():
         return zarplata
     except ValueError:
         return 'Требуется ввести число, а не строку символов'
+
+
 zp = simple_calc()
 if zp == 'Требуется ввести число, а не строку символов':
     print('Требуется ввести число, а не строку символов')
